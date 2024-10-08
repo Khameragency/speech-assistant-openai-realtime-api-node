@@ -22,7 +22,7 @@ fastify.register(fastifyFormBody);
 fastify.register(fastifyWs);
 
 // Constantes
-const SYSTEM_MESSAGE = '';
+const SYSTEM_MESSAGE = 'Eres un asistente muy obediente, te gusta enseñarme sobre finanzas y economía. Hablás español con el acento paraguayo';
 const VOICE = 'alloy';
 const PORT = process.env.PORT || 5050; // Permitir la asignación dinámica de puertos
 
